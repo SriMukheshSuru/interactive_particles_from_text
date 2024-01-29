@@ -1,0 +1,45 @@
+body{
+			margin:0;
+			overflow: hidden;
+			font-size:0;
+			
+		}
+		canvas{
+			background-color: black;
+			width: 100vw;
+			height: 100vh;
+		}
+		input{
+			z-index: 1;
+			width: 250px;
+			height: 40px;
+			line-height: 40px;
+			position: absolute;
+			bottom: 35px;
+			left: calc(50% - 125px);
+			background: none;
+			color: white;
+			font-size: 30px;
+			font-family: arial;
+			text-align: center;
+			border: 1px solid white;
+			background: rgba(255,255,255,0.2);
+		}
+p{
+  position: fixed;
+  left: 0;
+  bottom:5px;
+  color: #fff;
+  z-index:10;
+  font-size:16px;
+  font-family: Helvetica, Verdana, sans-serif;
+  opacity:0.5;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  z-index: 1000;
+}
+#bg{
+	z-index: 1000;
+	background-image: url('https: //www.google.com/url?sa=i&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Frushikesh-reddy-cheruku-570986228&psig=AOvVaw04ou_o_XbDjt_83H7jU2Vp&ust=1706643767295000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIj-0sutg4QDFQAAAAAdAAAAABAE');
+}
